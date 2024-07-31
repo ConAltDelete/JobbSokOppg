@@ -1,0 +1,7 @@
+ID,fav_number
+ORA-Ann,6
+INC-Ida,10
+ ORA-tim,10
+POO-TPO,23
+R2D2-Peter,1
+  ORA-tim,10

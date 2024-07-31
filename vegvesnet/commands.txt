@@ -1,0 +1,4 @@
+.headers on
+.mode box --wrap 30
+SELECT name as 'Name', fullname as 'Organisasjons navn' FROM ansatte LEFT JOIN organisasjons_enheter ON org_id = orgenhet_kode;
+SELECT fullname as 'Organisasjon',count(*) as 'how many' FROM ansatte LEFT JOIN organisasjons_enheter ON org_id = orgenhet_kode GROUP BY org_id;
